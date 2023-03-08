@@ -10,6 +10,7 @@
     "@nrwl/linter": "15.8.5",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/react": "^15.8.5",
+    "@nrwl/storybook": "^15.8.5",
     "@nrwl/vite": "^15.8.5",
     "@nrwl/workspace": "15.8.5",
     "@swc/core": "^1.2.173",
@@ -20,7 +21,9 @@
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "@vitejs/plugin-react": "^3.0.0",
+    "@vitest/coverage-c8": "~0.25.8",
     "@vitest/ui": "^0.25.8",
+    "autoprefixer": "^10.4.13",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.27.5",
@@ -29,8 +32,11 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "jsdom": "~20.0.3",
     "nx": "15.8.5",
+    "postcss": "^8.4.21",
     "prettier": "^2.6.2",
     "react-test-renderer": "18.2.0",
+    "swc-loader": "0.1.15",
+    "tailwindcss": "^3.2.7",
     "typescript": "~4.9.5",
     "vite": "^4.0.1",
     "vite-plugin-dts": "~1.7.1",
@@ -40,6 +46,7 @@
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwind-variants": "^0.0.31"
   }
 }
