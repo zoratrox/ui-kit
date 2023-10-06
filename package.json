@@ -51,7 +51,7 @@
     "html-webpack-plugin": "^5.5.0",
     "jsdom": "~20.0.3",
     "nx": "15.8.5",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.31",
     "prettier": "^2.6.2",
     "react-test-renderer": "18.2.0",
     "swc-loader": "0.1.15",
